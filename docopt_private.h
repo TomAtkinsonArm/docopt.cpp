@@ -27,6 +27,7 @@ namespace std {
    	}
 }
 #else
+#define _REGEX_MAX_STACK_COUNT 0
 #include <regex>
 #endif
 
